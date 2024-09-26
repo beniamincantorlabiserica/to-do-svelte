@@ -56,14 +56,6 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-## 🧪 Running Tests
-
-To run the test suite:
-
-```
-npm run test
-```
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).

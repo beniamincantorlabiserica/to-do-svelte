@@ -2,6 +2,8 @@
 	import HeroText from "../lib/components/HeroText.svelte";
 	import Footer from "../lib/components/Footer.svelte";
 	import DottedCallOut from "../lib/components/DottedCallOut.svelte";
+	import Todo from "../lib/components/Todo.svelte"
+	import ReadMe from "../lib/components/ReadMe.svelte"
 	import { onMount } from "svelte";
 	import toast, { Toaster } from 'svelte-french-toast';
 	import Faq from "../lib/components/FAQ.svelte";
@@ -17,15 +19,8 @@
 </script>
 
 <HeroText />
+
+<Todo />
 <Toaster />
-
-<div class="flex justify-center">
-    <button on:click={seetoast} class="btn btn-secondary">
-        Click here to see the toast
-    </button>
-</div>
-
-<Faq />
-
-<DottedCallOut />
+<ReadMe />
 <Footer />
